@@ -3,7 +3,7 @@ const serverless = require('serverless-http');
 const { Server } = require('socket.io');
 const app = express();
 
-const server = app.listen(8000);
+const server = app.listen(3000, "0.0.0.0");
 const io = new Server(server, { cors: { origin: '*' } });
 const users = {};
 
