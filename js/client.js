@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000');
+const socket = io('https://i-chat-application.netlify.app/');
 
 // Get DOM elements to respective JS variables.
 const form = document.getElementById('send-container');
